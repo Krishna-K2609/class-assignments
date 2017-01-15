@@ -1,0 +1,4 @@
+Absolute vs Relative Paths
+Commands 5 (cd ~), 7. (cd/~/data/..), 8 (cd) and 9 (cd ..) would all help Amanda navigate from /Users/amanda/data to her home directory of /Users/amanda
+
+
