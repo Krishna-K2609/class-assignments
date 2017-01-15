@@ -4,3 +4,7 @@ Commands 5 (cd ~), 7. (cd/~/data/..), 8 (cd) and 9 (cd ..) would all help Amanda
 Relative Path Resolution
 4. ls ../backup will display the repositories under /backup, namely original, pnas_final and pnas_sub
 
+ls Reading Comprehension
+4. Commands 2 (ls -r -F and ls -r -F /Users/backup) would display pnas_sub/ pnas_final and original/
+
+
