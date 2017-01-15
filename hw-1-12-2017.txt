@@ -7,4 +7,9 @@ Relative Path Resolution
 ls Reading Comprehension
 4. Commands 2 (ls -r -F and ls -r -F /Users/backup) would display pnas_sub/ pnas_final and original/
 
+Exploring More ls Arguments
+When used with the command -l, ls displays a 'long-listing format' of the files in the repository, which includes information about the file and directory names as well as file size.
+The command ls -h displays 'human readable' file size information in kilobytes, megabytes, etc.
 
+Listing Recursively and By Time
+ls -R -t displays directories in alphabetical order at each level of hierarchy and the directories and files in each directory by time of last change (with the most recently modified file first).
