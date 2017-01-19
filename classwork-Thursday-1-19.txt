@@ -1,0 +1,19 @@
+  524  cd ~
+  525  cd Desktop/eeb177/CSB/unix
+  526  data
+  527  pwd
+  528  cd data/
+  529  sudo gedit Marra2014_data.fasta 
+  530  man wc
+  531  wc Marra2014_data.fasta 
+  532  wc -l Marra2014_data.fasta 
+  533  cd Desktop/eeb177/CSB/unix/data/
+  534  ls
+  535  wc -l Marra2014_da
+  536  cd Desktop/eeb177/CSB/unix/data/
+  537  ls
+  538  wc -l Marra2014_data.fasta 
+  539  touch toremove.txt ../sandbox/
+  540  touch ~/Desktop/eeb177/CSB/unix/sandbox/toremove.txt
+  541  ls ~/Desktop/eeb177/CSB/unix/sandbox
+  542 history 20 >> ~/Desktop/eeb177/class-assignments/classwork-Thursday-1-19.txt 
