@@ -16,4 +16,4 @@
   539  touch toremove.txt ../sandbox/
   540  touch ~/Desktop/eeb177/CSB/unix/sandbox/toremove.txt
   541  ls ~/Desktop/eeb177/CSB/unix/sandbox
-  542 history 20 >> ~/Desktop/eeb177/class-assignments/classwork-Thursday-1-19.txt 
+  542  history 19 >> ~/Desktop/eeb177/class-assignments/classwork-Thursday-1-19.txt 
