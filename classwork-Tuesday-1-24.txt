@@ -1,3 +1,75 @@
 /home/eeb177-student/Desktop/eeb177/class-assignments/classwork-Tues-1-17.txt
 /home/eeb177-student/Desktop/eeb177/class-assignments/classwork-Tuesday-1-24.txt
 /home/eeb177-student/Desktop/eeb177/class-assignments/classwork-Thursday-1-19.txt
+ 
+ 1065  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+ 1066  gedit cep-taxa.txt 
+ 1067  less cep-taxa.txt 
+ 1068  grep Orchidaceae
+ 1069  grep Orchidaceae cep-taxa.txt 
+ 1070  grep Orchidaceae cep-taxa.txt | wc -l
+ 1071  man grep
+ 1072  grep -c Orchidaceae cep-taxa.txt 
+ 1073  grep falcon cep-taxa.txt 
+ 1074  grep Falcon cep-taxa.txt 
+ 1075  grep -i falcon cep-taxa.txt 
+ 1076  grep Ara cep-taxa.txt 
+ 1077  grep -i ara cep-taxa.txt 
+ 1078  grep -i -w ara cep-taxa.txt 
+ 1079  grep -i -w -c ara cep-taxa.txt 
+ 1080  grep -B Cebus cep-taxa.txt 
+ 1081  grep -B 3 Cebus cep-taxa.txt 
+ 1082  grep -A 3 Cebus cep-taxa.txt 
+ 1083  grep -B3 Cebus cep-taxa.txt 
+ 1084  grep -B 3 -i -w Cebus cep-taxa.txt 
+ 1085  grep -n -i -w iguana cep-taxa.txt 
+ 1086  grep -c -v ara cep-taxa.txt 
+ 1087  grep -n -v ara cep-taxa.txt 
+ 1088  grep -c -v -i -w ara cep-taxa.txt 
+ 1089  grep -n -v -i -w ara cep-taxa.txt 
+ 1090  grep -n -v -i -w ara cep-taxa.txt >> non-macaws.txt
+ 1091  > non-macaws.txt ls
+ 1092  ls
+ 1093  find .*
+ 1094  find ../data/
+ 1095  find .* ../data/
+ 1096  find ../data/
+ 1097  find /home/eeb177-student/Desktop/eeb177/CSB/unix/data/
+ 1098  find ../data/ | wc -l
+ 1099  find ../data/ -name "n30.txt"
+ 1100  find ~ -name "classwork-Tues-1-17.txt"
+ 1101  find /home/eeb177-student/Desktop/eeb177/ -name "classwork-Tues-1-17.txt"
+ 1102* find /home/eeb177-student/Desktop/ -name "classwork*.txt"
+ 1103  find ../data/ -name "n30.txt"
+ 1104  find /home/eeb177-student/Desktop/eeb177/CSB/unix/ -iname "*about*"
+ 1105  find ../data/ -iname "*about*"
+ 1106  find /home/eeb177-student/Desktop/ -iname "*classwork*" >> ~/Desktop/eeb177/class-assignments/classwork-Tues-1-24.txt
+ 1107  find /home/eeb177-student/Desktop/ -iname "*classwork*" >> ~/Desktop/eeb177/class-assignments/classwork-Tuesday-1-24.txt
+ 1108  cd ~/Desktop/eeb177/class-assignments/
+ 1109  git add classwork-Tuesday-1-24.txt 
+ 1110  git commit -m "appending file names for all files with the word 'classwork'"
+ 1111  git push
+ 1112  git status
+ 1113  gedit classwork-Tuesday-1-24.txt 
+ 1114  find ../CSB/unix/data -maxdepth 1 -name "*.txt" | wc -l
+ 1115  find ../CSB/unix/data -maxdepth 2 -name "*.txt" | wc -l
+ 1116  find ../CSB/unix/data -maxdepth 5 -name "*.txt" | wc -l
+ 1117  find ../CSB/unix/data -maxdepth 10 -name "*.txt" | wc -l
+ 1118  find ../CSB/unix/data -maxdepth 1 -name "*.txt" | wc -l
+ 1119  find ../CSB/unix/data -maxdepth 1 -name "*.txt"
+ 1120  cd ../CSB/unix/data/
+ 1121  ls -l
+ 1122  cd ../sandbox/
+ 1123  ls -l
+ 1124  touch pemissions.txt
+ 1125  ls -l
+ 1126  chmod u=rwx permissions.txt
+ 1127  chmod u=rwx pemissions.txt
+ 1128  ls -l
+ 1129  mv pemissions.txt permissions.txt
+ 1130  ls -l
+ 1131  chmod g+w, u+x permissions.txt 
+ 1132  chmod g+w,u+x permissions.txt 
+ 1133  ls -l
+ 1134  history
+ 1135  history 71 >> ~/Desktop/eeb177/class-assignments/classwork-Tuesday-1-24.txt 
