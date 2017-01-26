@@ -1,0 +1,150 @@
+ 1123  ls -l
+ 1124  touch pemissions.txt
+ 1125  ls -l
+ 1126  chmod u=rwx permissions.txt
+ 1127  chmod u=rwx pemissions.txt
+ 1128  ls -l
+ 1129  mv pemissions.txt permissions.txt
+ 1130  ls -l
+ 1131  chmod g+w, u+x permissions.txt 
+ 1132  chmod g+w,u+x permissions.txt 
+ 1133  ls -l
+ 1134  history
+ 1135  history 71 >> ~/Desktop/eeb177/class-assignments/classwork-Tuesday-1-24.txt 
+ 1136  cd ~/Desktop/eeb177/class-assignments/
+ 1137  git add classwork-Tuesday-1-24.txt 
+ 1138  git commit -m "adding command history for today's class"
+ 1139  git push
+ 1140  git status
+ 1141  git add classwork-Tuesday-1-24.txt 
+ 1142  git commit -m "adding command history"
+ 1143  git push
+ 1144  cd Desktop/eeb177/lab-work/exercise-3
+ 1145  ls
+ 1146  git add Exercise-3.ipynb 
+ 1147  git commit -m "adding first Python exercise - Week 3"
+ 1148  git push
+ 1149  cd ..
+ 1150  git add exercise-3
+ 1151  git commit -m "adding week 3 exercises repository"
+ 1152  git push
+ 1153  ls
+ 1154  cd exercise-
+ 1155  cd exercise-3
+ 1156  ls
+ 1157  cd Desktop/eeb177/lab-work/
+ 1158  mkdir exercise-3
+ 1159  ls
+ 1160  ls exercise-3
+ 1161  cd exercise-3
+ 1162  ls
+ 1163  jupyter notebook
+ 1164  cd Desktop/eeb177/class-assignments/
+ 1165  gedit classwork-Thursday-1-26.txt
+ 1166  git add classwork-Thursday-1-26.txt 
+ 1167  git commit -m "adding Wekk 3 Thursday class assignments"
+ 1168  git push
+ 1169  ls-l
+ 1170  ls -l
+ 1171  cd ../CSB/unix/sandbox/
+ 1172  touch permissions.txt
+ 1173  ls -
+ 1174  ls -l
+ 1175  chmod g=rwx permissions.txt 
+ 1176  ls -l
+ 1177  chmod u+g+o=rwx permissions.txt 
+ 1178  ls -l
+ 1179  chmod o=rwx permissions.txt 
+ 1180  ls -l
+ 1181  chmod g=-x permissions.txt 
+ 1182  ls -l
+ 1183  chmod g+x permissions.txt 
+ 1184  ls -l
+ 1185  cd ../..
+ 1186  ls
+ 1187  cd ..
+ 1188  ls
+ 1189  cd class-assignments/
+ 1190  ls
+ 1191  gedit
+ 1192  ls 
+ 1193  less dir.sh
+ 1194  gedit dir.sh 
+ 1195  ls -l
+ 1196  dir.sh
+ 1197  chmod u+x
+ 1198  chmod u +x
+ 1199  chmod u= +x
+ 1200  chmod u+x dir.sh 
+ 1201  ls -l
+ 1202  $PATH
+ 1203  cd
+ 1204  pwd
+ 1205  mkdir scripts
+ 1206  ls
+ 1207  cd scripts/
+ 1208  ls
+ 1209  mv ~/Desktop/eeb177/class-assignments/dir.sh .
+ 1210  ls
+ 1211  cd
+ 1212  ls -a
+ 1213  gedit .bash_profile
+ 1214  ls -a
+ 1215  exit
+ 1216  $PATH
+ 1217  less .bash_profile 
+ 1218  sudo reboot
+ 1219  cd scripts/
+ 1220  ls
+ 1221  chmod u+x dir.sh 
+ 1222  ls -l
+ 1223  clear
+ 1224  gedit dir.sh 
+ 1225  cd 
+ 1226  cd Desktop/
+ 1227  dir.sh
+ 1228  clear
+ 1229  cd
+ 1230  ls
+ 1231  ls -a
+ 1232  cd
+ 1233  gedit .profile
+ 1234  gedit .profile 
+ 1235  sudo reboot
+ 1236  dir.sh
+ 1237  clear
+ 1238  $PATH
+ 1239  cd Desktop/
+ 1240  dir
+ 1241  dir.sh
+ 1242  cd ~/scripts/
+ 1243  ls -l
+ 1244  git config --global user.name Krishna-K2609
+ 1245  git config --global user.email krisha2609@g.ucla.edu
+ 1246  git init
+ 1247  git remote add origin https://github.com/Krishna-K2609/scripts.git
+ 1248  git push -u origin master
+ 1249  cd
+ 1250  cd scripts/
+ 1251  gedit in_class_script.sh
+ 1252  chmod u+x in_class_script.sh 
+ 1253  ls -l
+ 1254  in_class_script.sh 
+ 1255  cd
+ 1256  cd scripts/
+ 1257  git status
+ 1258  git remote add origin https://github.com/Krishna-K2609/scripts.git
+ 1259  git push -u origin master
+ 1260  git add dir.sh
+ 1261  git commit -m "Adding first shell script"
+ 1262  git push
+ 1263  git push -u origin master
+ 1264  gedit readme.txt
+ 1265  git add readme.txt 
+ 1266  git commit -m "adding readme file"
+ 1267  git push
+ 1268  cd
+ 1269  cd Desktop/eeb177/class-assignments/
+ 1270  ipython
+ 1271  history
+ 1272  history 150 >> ~/Desktop/eeb177/class-assignments/classwork-Thursday-1-26.txt 
