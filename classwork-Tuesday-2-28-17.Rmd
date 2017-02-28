@@ -1,27 +1,38 @@
 ---
 title: "Classwork-2-28-17"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+## Classwork for Tuesday Week 8
+
+Here I will include my classwork for Tuesday 28 February.
+
+### Loading my first data file
+
+Load in the csv file I created.
+
+```{r cats}
+cats <- read.csv(file = "data/feline-data.csv", as.is = TRUE)
+# adding as.is = TRUE will keep character data as characters
+cats
+str(cats)
+cats$weight
+
+# we can change values in a column
+cats$weight + 2
+
+typeof(cats$weight)
+# double - same as float in python
+typeof(cats$coat)
+# coat is strangely recorded as an integer in R
+# R reads all values as factors
+typeof(cats$likes_string)
+# integer
+
+as.character(cats$coat) -> dd
+# convert coat to text rather than factors
 ```
+R uses the $ to retrieve vectors in a csv file.
 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
