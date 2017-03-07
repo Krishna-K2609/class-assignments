@@ -2,6 +2,36 @@
 title: "classwork-Tuesday-3-7"
 author: "Krishna Krishnamurthy"
 date: "March 7, 2017"
-output: html_document
+output: md_document
 ---
+
+```{r}
+library(paleotree)
+library(paleobioDB)
+
+# Download the data
+data(graptPBDB)
+head(graptOccPBDB)
+
+# Let's look at uncertainty for species and genera
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank="species") # this sorts unique taxa and lists first and last occurrences
+head(occSpecies)
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank = "genus") # same for genera
+head(occGenera)
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank = "family") # ...and for families
+head(occFamily)
+
+# PLot species occurrences
+plotOccData(occSpecies, groupLabel="Species")
+
+# Now we look at diversity through time for various ranks
+# convert occurrence data to "timelist" format
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+graptTimeGenus <- occData2timeList(occList = occGenera)
+graptTimeFamily <- occData2timeList(occList = occFamily)
+
+head(graptTimeSpecies)
+# plot diversity
+taxicDivDisc(graptTimeSpecies)
+```
 
