@@ -11413,6 +11413,9 @@
     ## Tetragraptus insuetus               9       9
 
     # plot diversity
+    pdf(file = "dtt.pdf") # redirect file to a new file
     taxicDivDisc(graptTimeSpecies)
+    dev.off() # after this point the plots will go to the plot window instead of PDF
 
-![](classwork-Tuesday-3-7_files/figure-markdown_strict/unnamed-chunk-1-2.png)
+    ## png 
+    ##   2
